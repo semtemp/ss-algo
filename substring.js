@@ -57,8 +57,4 @@ const findShortest = (str, words) => {
     return sub;
 }
 
-// str = 'Cat, rabbit. And dog. Chasing! The cat, dog were chasing each other.';
-// arr = ['cat','dog', 'chasing', 'rabbit'];
-// console.log(findShortest(str,arr))
-
 module.exports = { findShortest };
